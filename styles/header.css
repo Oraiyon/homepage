@@ -5,9 +5,10 @@
 }
 
 .container {
-    position: absolute;
-    top: 0;
     margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 header {
@@ -15,8 +16,8 @@ header {
     align-items: center;
 }
 
-header img {
-    height: 400px;
+header img{
+    max-height: 415px;
 }
 
 .left-header {
