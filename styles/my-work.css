@@ -14,10 +14,33 @@
 .project-screenshot {
     width: 100%;
     height: calc(9px * 20);
-    background-color: navy;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.projects div:nth-child(1) .project-screenshot {
+    background-color: rgb(206, 17, 17);
+}
+
+.projects div:nth-child(2) .project-screenshot {
+    background-color: rgb(125, 28, 155);
+}
+
+.projects div:nth-child(3) .project-screenshot {
+    background-color: rgb(9, 119, 9);
+}
+
+.projects div:nth-child(4) .project-screenshot {
+    background-color: rgb(219, 126, 219);
+}
+
+.projects div:nth-child(5) .project-screenshot {
+    background-color: rgb(255, 176, 30);
+}
+
+.projects div:nth-child(6) .project-screenshot {
+    background-color: rgb(36, 93, 250);
 }
 
 .project-screenshot p {
