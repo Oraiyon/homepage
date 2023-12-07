@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 
 header, section, footer {
     padding: 40px;
-    max-width: 1920px;
+    max-width: 1366px;
 }
 
 header {
