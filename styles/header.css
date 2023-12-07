@@ -4,11 +4,8 @@
     padding: 0;
 }
 
-.container {
-    margin: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+header, section, footer {
+    padding: 40px;
 }
 
 header {
