@@ -14,7 +14,7 @@ footer {
 }
 
 footer img {
-    width: 40%;
+    max-width: 500px;
     box-shadow: 2px 2px 6px 0px rgba(255, 255, 255, .5);
 }
 
@@ -58,4 +58,34 @@ footer img {
 
 .footer-extend-right {
     right: 0;
+}
+
+@media (max-width: 768px) {
+    footer {
+        gap: 12px;
+    }
+
+    .left-footer {
+        gap: 12px;
+    }
+
+    footer img {
+        max-width: 300px;
+    }
+
+    .contacts {
+        gap: 6px;
+    }
+
+    .contacts div {
+        gap: 6px;
+    }
+
+    .footer-icons {
+        gap: 12px;
+    }
+
+    .left-footer svg {
+        height: 24px;
+    }
 }

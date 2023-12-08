@@ -1,7 +1,15 @@
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+    gap: 40px;
 }
 
 .projects > div {
@@ -68,4 +76,47 @@
 
 .icons svg {
     height: 32px;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+
+    .project-screenshot {
+        height: 190px;
+    }
+
+    .project-screenshot p {
+        font-size: 1.75rem;
+    }
+
+    .project-description {
+        padding: 12px;
+        margin-bottom: 40px;
+    }
+
+    .project-description div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .project-description p {
+        margin-top: 12px;
+    }
+
+    .icons svg {
+        height: 24px;
+    }
 }
