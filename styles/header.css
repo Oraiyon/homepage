@@ -36,12 +36,16 @@ header img{
     max-height: 415px;
 }
 
-header > p {
+.left-header {
+    position: relative;
+}
+
+.left-header p {
     color: white;
     font-size: 32px;
     position: absolute;
-    bottom: 45px;
-    left: 47.5px;
+    bottom: 8px;
+    left: 4px;
 }
 
 .right-header > div {
@@ -100,10 +104,8 @@ header img, .right-header > div {
         height: 300px;
     }
 
-    header > p {
-        font-size: 22px;
-        bottom: 35px;
-        left: 42.5px;
+    .left-header p {
+        font-size: 23px;
     }
 
     .right-header > div {
@@ -113,5 +115,49 @@ header img, .right-header > div {
 
     .header-icons svg{
         display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    h1 {
+        text-align: center;
+    }
+    
+    header, section, footer {
+        padding: 24px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    picture {
+        width: 100%;
+    }
+
+    header img {
+        width: 100%;
+        height: 100%;
+        min-width: 257px;
+        max-height: 540px;
+    }
+
+    .left-header p {
+        font-size: 30px;
+    }
+
+    .right-header > div {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .header-icons {
+        justify-content: center;
+    }
+
+    .header-icons svg{
+        display: flex;
+        height: 24px;
     }
 }
