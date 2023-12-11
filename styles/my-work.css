@@ -9,7 +9,7 @@ h3 {
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 32px;
 }
 
 .projects > div {
@@ -89,7 +89,7 @@ h3 {
 
     .projects {
         grid-template-columns: repeat(2, 1fr);
-        gap: 32px;
+        gap: 24px;
     }
 
     .project-screenshot {
@@ -124,6 +124,6 @@ h3 {
 @media (max-width: 425px) {
     .projects {
         grid-template-columns: repeat(1, 1fr);
-        gap: 24px;
+        gap: 8px;
     }
 }
